@@ -5,7 +5,7 @@ import Painter from "../utils/Painter";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
-      <Painter />
+      <Painter lineWidth={3} threshold={4} recordPoints={true} />
     </main>
   );
 };
